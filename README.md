@@ -2,7 +2,7 @@
 Use this Repository as a template for creating Local Chapter Repositories
 
 
-# [Chapter Challenge Name]
+# [Omdena- Marseille NLP Challenge ]
 
 
 ## Contribution Guidelines
