@@ -1,8 +1,4 @@
-# chapter-project-repository-template
-Use this Repository as a template for creating Local Chapter Repositories
-
-
-# [Omdena- Marseille NLP Challenge ]
+# Omdena- Marseille NLP Challenge
 
 
 ## Contribution Guidelines
