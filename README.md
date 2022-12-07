@@ -1,4 +1,4 @@
-# Omdena- Marseille NLP Challenge
+# Omdena - Marseille NLP Challenge
 
 
 ## Contribution Guidelines
