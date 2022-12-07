@@ -51,4 +51,24 @@
 - Visualization     - Folder to store dashboards, analysis and visualization reports
 - Results           - Folder to store final analysis modelling results for the project.
 
+## Project Setup
 
+Open the Command line or Terminal
+
+- Clone the repository
+
+```
+git clone https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp
+```
+
+- Move to the folder
+
+```
+cd marseille-chapter-stop-online-violence-nlp
+```
+
+- To open with VSCode
+
+```
+code .
+```
