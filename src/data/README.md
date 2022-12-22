@@ -15,4 +15,4 @@ The labels to be used are:
 
 'None' can be used for examples that not suitable for our needs.
 
-> Use the `ambiguous_occurrences.csv` file for occurrences that you are unable to label. Please suggest 1/2 labels that you think might be suitable for the example in question. Another annotator will confirm/modify these at a later stage.
+> Use the `ambiguous_occurrences.csv` file within the `annotated_data/` directory for occurrences that you are unable to label. Please suggest 1/2 labels that you think might be suitable for the example in question. Another annotator will confirm/modify these at a later stage.
