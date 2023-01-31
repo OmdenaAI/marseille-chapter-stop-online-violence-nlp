@@ -2,4 +2,4 @@
 
 ## A project by the Omdena Marseille Local Chapter.
 
-
+![The Omdena Marseille Local Chapter Logo](reports/french_chapter_logo1.png)
