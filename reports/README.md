@@ -3,3 +3,13 @@
 ## A project by the Omdena Marseille Local Chapter.
 
 ![The Omdena Marseille Local Chapter Logo](french_chapter_logo1.png)
+
+# Executive Summary
+
+# Introduction
+
+# Our Solution
+
+# Conclusions
+
+# References
