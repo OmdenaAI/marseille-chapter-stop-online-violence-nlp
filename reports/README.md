@@ -4,6 +4,8 @@
 
 ![The Omdena Marseille Local Chapter Logo](french_chapter_logo1.png)
 
+_____________________________________________
+
 # Executive Summary
 
 # Introduction
