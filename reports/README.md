@@ -8,7 +8,21 @@
 
 # Introduction
 
+## Problem Statement
+
 # Our Solution
+
+## Domain Research
+
+## Data Acquisition
+
+## Exploratory Data Analysis (EDA)
+
+## Model Experimentation and Evaluation
+
+## Model Improvement
+
+## Model Deployment
 
 # Conclusions
 
