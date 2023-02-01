@@ -185,6 +185,8 @@ A visualisation of model loss and accuracy can be seen below:
 
 ![]()
 
+When testing the fine-tuned models to make predictions about new data, Chukwudi demonstrated that both models yielded identical results, and 89% accuracy.
+
 ## Model Deployment
 
 <img src="images/landing.png"  width="80%" height="80%">
