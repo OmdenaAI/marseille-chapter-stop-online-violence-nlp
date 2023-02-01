@@ -127,8 +127,8 @@ The table below provides an overview of all tested architectures which were even
 
  | Contibutor | Model  | Type  | Additional Info | 
  |-|-|-|-|
- |  | | | |
- | | | | |
+ |Lamia SEKKAI  |Distil_BERT |TRansformers |Hyper parameters fine tuning of Base model provided by Alexander Lang|
+ |Lamia Model |FastText Word Embedding- RNN Model |Deep learning  | |
  | | | | |
  | | | | |
  | | | | |
