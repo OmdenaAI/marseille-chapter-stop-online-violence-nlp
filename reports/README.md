@@ -115,9 +115,11 @@ The data pre-processing team was led by Mohamed Khandil and composed of Lamia Se
 
 According to Wikipedia [8], exploratory data analysis (EDA) is an approach of analysing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
 
-One of our collaborators, Hassan Outlaouait, worked on the Twitter data and noticed that the labels used by the various collaborators needed to be standardised, which he did by choosing to sentence case them. He also signalled the overall data imbalance between the six chosen labels, and suggested to balance the dataset using the SMOTE technique for oversampling.
+One of our collaborators, Hassan Outlaouait, worked on the Twitter data and noticed that the labels used by the various collaborators needed to be standardised, which he did by choosing to sentence case them. He also signalled the overall data imbalance between the six chosen labels, and suggested to balance the dataset using the SMOTE technique for oversampling. The imbalance is illustrated in the following graph created by Chukwudi Okereafor:
 
-Chukwudi Okereafor graciously provided the following word cloud for our datasets:
+![graph](images/download.png)
+
+Okereafor also graciously provided the following word cloud for our datasets:
 
 <p align="center">
   <img width="70%" height="70%" src="images/word_cloud.JPG">
