@@ -127,7 +127,7 @@ The table below provides an overview of all tested architectures which were even
 
  | Contibutor | Model  | Type  | Additional Info | 
  |-|-|-|-|
- | | | | |
+ |  | | | |
  | | | | |
  | | | | |
  | | | | |
@@ -171,3 +171,15 @@ ___________________________________________
 
 ### Participants (in alphabetical order)
 
+Alexandre Iang (chapter leader)
+Amine Teffal
+Caterina Bonan
+Chukwudi Okereafor
+Divya Muthu Krishnan
+Haider Ali Khan
+Hassan Outlaouait
+Lamia Sekkai
+Mohamed Kandil
+Romy Sayah
+Rukshar Alam
+Vedanth Baliga
