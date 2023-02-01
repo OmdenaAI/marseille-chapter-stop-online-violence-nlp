@@ -32,7 +32,7 @@ From the original challenge, the team has a large dataset of more than 800,000 l
 
 ## Project Goals
 
-The team goal was to stop online violence against children by deploying an accurate classifier to identify grooming behavior in online chats with children. Once suspicion of grooming reaches a threshold based on its similarity to the training data, it will trigger an action, which may differ depending on the platform it is deployed on and the objectives of the intervention. As an example, the team may warn the child through the chatbot without alerting the groomer, call a moderator, or shut down the chat entirely.
+The team goal was to stop online violence against children by deploying an accurate classifier to identify harmful/grooming behaviors in online chats with children. 
 
 ![An image of a child looking at their phone, courtesy of Save The Children](images/Deploying-an-Accurate-Classifier-to-Stop-Online-Violence-Against-Children-using-NLP-980x233.png.webp)
 
@@ -209,7 +209,7 @@ Please note that all images in this sections are from a demo graciously provided
 
 The chapter was a success and lead to the creation of a POC of our classification model, which we published in Streamlit. When it comes to the project's main goal, that of tackling on-line violence against children, our classifier performs in a satisfactory way. The results are certainly promising, and can be considered a first yet huge step towards our joint goal to stop on-line violence against minors altogether. 
 
-Further work can be forecasted to improve both the model and the way the model is deployed. The team are now planning a follow-up chapter in which a custom extension that will predict the content of a text in real time will be created, and subsequently deployed within an EC2 instance on Amazon Web Services (AWS). 
+Further work can be forecasted to improve both the model and the way the model is deployed. The team are now planning a follow-up chapter in which a custom extension that will predict the content of a text in real time will be created, and subsequently deployed within an EC2 instance on Amazon Web Services (AWS). The final application should work as follows: once suspicion of grooming reaches a threshold based on its similarity to the training data, it will trigger an action, which may differ depending on the platform it is deployed on and the objectives of the intervention. As an example, the team may warn the child through the chatbot without alerting the groomer, call a moderator, or shut down the chat entirely.
 
 Future extensions of the project to languages other than French are desirable and should be incouraged.
 
