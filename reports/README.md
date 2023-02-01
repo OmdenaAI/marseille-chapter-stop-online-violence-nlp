@@ -209,13 +209,11 @@ Please note that all images in this sections are from a demo graciously provided
 
 # Conclusions
 
-Despite the successful implementation of our model during this chapter, further work can be forecasted to improve both the model and the way the model is deployed. The team are now planning a follow-up chapter in which a custom extension that will predict the content of a text in real time will be created, and subsequently deployed within an EC2 instance on Amazon Web Services (AWS).
+The chapter was a success and lead to the creation of a POC of our classification model, which we published in Streamlit. When it comes to the project's main goal, that of tackling on-line violence against children, our classifier performs in a satisfactory way. The results are certainly promising, and can be considered a first yet huge step towards our joint goal to stop on-line violence against minors altogether. 
 
-____________________________________________________
+Further work can be forecasted to improve both the model and the way the model is deployed. The team are now planning a follow-up chapter in which a custom extension that will predict the content of a text in real time will be created, and subsequently deployed within an EC2 instance on Amazon Web Services (AWS). 
 
-This report was written and submitted by Caterina Bonan, Postdoctoral Researcher at the University of Cambridge, who takes full responsibity for any mistake or unaccuracy in it.
-
-____________________________________________________
+Future extensions of the project to languages other than French are desirable and should be incouraged.
 
 # References
 
@@ -235,7 +233,11 @@ ____________________________________________________
 
 [8] [https://en.wikipedia.org/wiki/Exploratory_data_analysis](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
 
-___________________________________________
+____________________________________________________
+
+This report was written and submitted by Caterina Bonan, Postdoctoral Researcher at the University of Cambridge, who takes full responsibity for any mistake or unaccuracy in it.
+
+____________________________________________________
 
 ### Participants (in alphabetical order)
 
