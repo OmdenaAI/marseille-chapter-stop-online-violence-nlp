@@ -131,8 +131,8 @@ The table below provides an overview of all tested architectures which were even
 
  | Contributor | Model  | Type  | Additional Info | 
  |-|-|-|-|
- | Lamia Sekkai | Distil_BERT | Transformers | Hyper parameters fine tuning of Base model provided by Alexander Lang. |
- | Lamia Sekkai | FastText Word Embedding- RNN Model | Deep learning  | |
+ | Lamia Sekkai | Distil_BERT | Transformers | Hyper parameters fine tuning of Base model provided by Alexander Lang. Due to dataset size, data augmentation was performed using the `nlpaug` library. |
+ | Lamia Sekkai | FastText Word Embedding (RNN) | Deep learning  | Demonstrated that a smaller quentity of labels would yield better classification results for our task. |
  | Vedanth Baliga| BERT | Transformers | Used Pytorch Lightning and built a learning rate scheduler with custom learning rate. |
  | | | | |
  | | | | |
