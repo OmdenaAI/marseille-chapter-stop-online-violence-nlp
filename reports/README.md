@@ -22,9 +22,7 @@ The common language for the chapter was English, although all chapter work was d
 
 The project was designed to reduce Online Sexual Exploitation and Abuse of Children (OSEAC). With a 15,000% rise in online Child Sexual Abuse Materials (CSAM) online from 2005 to 2020, it is clear that online child violence is growing exponentially. In 2021, the National Center for Missing and Exploited Children’s CyberTipline received 29.3 million reports of CSAM, making 2021 the worst year on record for online child sexual abuse.
 
-Online grooming is the primary way that adults with a sexual interest in children or those who wish to harm them utilise to approach their preys ([1], [2]).
-
-“Grooming is a multidimensional phenomenon in which an adult aims to solicit a child into a seemingly voluntary interaction with the intention of sexually abusing that child.” In a study Save the Children published last year, Grooming in the Eyes of a Child ([3]), we found that children who are the object of grooming often do not realize what is happening so they do not recognize they are in danger until they are being extorted into providing increasingly harmful imagery or even to meeting an online predator in person.
+Online grooming is the primary way that adults with a sexual interest in children or those who wish to harm them utilise to approach their preys ([1], [2]). “Grooming is a multidimensional phenomenon in which an adult aims to solicit a child into a seemingly voluntary interaction with the intention of sexually abusing that child.” In a study Save the Children published last year, Grooming in the Eyes of a Child ([3]), we found that children who are the object of grooming often do not realize what is happening so they do not recognize they are in danger until they are being extorted into providing increasingly harmful imagery or even to meeting an online predator in person.
 
 ### Previous Related Work on the Topic
 
@@ -217,11 +215,12 @@ Future extensions of the project to languages other than French are desirable an
 
 # References
 
-[1] Sørensen, 2015
+[1] Sørensen K. 2015. Grooming – a stategic process. Published in: Is it really that bad? An anthology of online sexual abuse of children and young people, written by Jakobsen G, Sørensen K, Almind H & Gundorff H. Save the Children Denmark. [https://resourcecentre.savethechildren.net/node/12241/ pdf/is-it-really-that-bad-an-antholohy-of-online-sexual-abuse-of-children-and-young-people.pdf](https://resourcecentre.savethechildren.net/node/12241/ pdf/is-it-really-that-bad-an-antholohy-of-online-sexual-abuse-of-children-and-young-people.pdf)
 
-[2] Greijer et al., 2016
+[2] Greijer S. & Doek J. (2016). Terminology Guidelines for the Protection of Children from Sexual Exploitation and
+Sexual Abuse. ECPAT International and ECPAT Luxembourg. [http://luxembourgguidelines.org/](http://luxembourgguidelines.org/)
 
-[3] Juusola et al., 2021
+[3] [https://pelastakaalapset.s3.eu-west-1.amazonaws.com/main/2021/08/03151159/grooming_in_the_eyes_of_a_child_2021.pdf](https://pelastakaalapset.s3.eu-west-1.amazonaws.com/main/2021/08/03151159/grooming_in_the_eyes_of_a_child_2021.pdf)
 
 [4] [https://racismnoway.com.au/about-racism/cyber-racism/](https://racismnoway.com.au/about-racism/cyber-racism/)
 
