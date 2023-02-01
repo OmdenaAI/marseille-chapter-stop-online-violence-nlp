@@ -42,7 +42,7 @@ The first days of the project were dedicated to the onboarding, and to the defin
 
 At this early stage, different classes of hate speech were identified. Five among the most important classes of hate speech were defined as followed:
 
--
+- *Sexism*: Refers to acts of violence that: 1) occur or linger in cyberspace; 2) are sexist, or sexual in nature; and 3) who reiterates dominant gender norms targeting girls and boys (tarnishing the former’s reputation and threatening the latter’s masculinity) [^4]
 
 -
 
@@ -69,6 +69,8 @@ The five classes above were subsequently used for data annotation.
 Despite the successful implementation of our model during this chapter, further work can be forecasted to improve both the model and the way the model is deployed. The team are now planning a follow-up chapter in which a custom extension that will predict the content of a text in real time will be created, and subsequently deployed within an EC2 instance on Amazon Web Services (AWS).
 
 # References
+
+[^4]
 
 ___________________________________________
 
