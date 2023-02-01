@@ -10,7 +10,9 @@ _____________________________________________
 
 # Introduction
 
-This challenge was created to deploy an accurate classifier to identify grooming behavior in online chats with children. Its main aim was to stop online violence against children. The challenge, which united an international team of AI engineers over 8-weeks, was led by chapter lead Alexandre Iang. The common language for the chapter was English, although all chapter work was done on French data. Most engineers had at least a working knowledge of French.
+This challenge was created to deploy an accurate classifier to identify grooming behavior in online chats with children. Its main aim was to stop online violence against children. The challenge, which united an international team of AI engineers over 8-weeks, was led by chapter lead Alexandre Iang. 
+
+The common language for the chapter was English, although all chapter work was done on French data. Most engineers had at least a working knowledge of French.
 
 ## Problem Statement
 
