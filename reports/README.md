@@ -125,8 +125,15 @@ Model experimentation and improvement, quite expectedly, was the most time-consu
 
 The table below provides an overview of all tested architectures which were eventually not chosen for out classifier:
 
- | Model | Contributor  | Info | 
- |-|-|-| 
+ | Contibutor | Model  | Type  | Additional Info | 
+ |-|-|-|-|
+ | | | | |
+ | | | | |
+ | | | | |
+ | | | | |
+ | | | | |
+ | | | | |
+ | | | | |
 
 The model chosen for our classifier was the one developed by Chukwudi Okereafor.
 
