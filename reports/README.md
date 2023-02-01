@@ -127,15 +127,17 @@ Model experimentation and improvement, quite expectedly, was the most time-consu
 
 The table below provides an overview of all tested architectures which were eventually not chosen for out classifier:
 
- | Contibutor | Model  | Type  | Additional Info | 
+ | Contributor | Model  | Type  | Additional Info | 
  |-|-|-|-|
- |Lamia SEKKAI  |Distil_BERT |TRansformers |Hyper parameters fine tuning of Base model provided by Alexander Lang|
- |Lamia Model |FastText Word Embedding- RNN Model |Deep learning  | |
+ | Lamia SEKKAI | Distil_BERT | TRansformers |Hyper parameters fine tuning of Base model provided by Alexander Lang|
+ | Lamia's Model | FastText Word Embedding- RNN Model | Deep learning  | |
  | | | | |
  | | | | |
  | | | | |
  | | | | |
  | | | | |
+ 
+ While the models by Vedanth Baliga, Divya Muthu Krishnan and Chukwudi Okereafor had similar performances, as shown in the Table below, Okereafor's model was eventually selected because it was computationally lighter.
  
  ### The Selected Model
 
