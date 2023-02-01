@@ -139,6 +139,10 @@ The model chosen for our classifier was the one developed by Chukwudi Okereafor.
 
 ## Model Deployment
 
+During the last two weeks of the project, the chapter leader Alexandre Iang worked on the deployment of a POC of the model in [Streamlit](https://streamlit.io/).
+
+A POC, or proof of concept, is an experiment intended to show that a program, product, or system can be successfully deployed in the real world. 
+
 <img src="images/landing.png"  width="80%" height="80%">
 
 <img src="images/hate1.png"  width="80%" height="80%">
@@ -194,7 +198,7 @@ Haider Ali Khan
 
 Hassan Outlaouait
 
-Lamia Sekki
+Lamia Sekkai
 
 Mohamed Kandil
 
