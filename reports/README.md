@@ -8,6 +8,8 @@ _____________________________________________
 
 # Executive Summary
 
+'Deploying an Accurate Classifier to Stop Online Violence Against Children using NLP', a project by the Omdena Marseille Local Chapter led by chapter leader Alexandre Iang, lasted 8 weeks and saw the cooperation of an international team of 12 AI engineers. These cooperated steadily to define the problem, collect sentence that fall into the category of 'hate' from social media, pre-process and annotate them, create a ML algorithm for their classification on the basis of pre-defined labels, and eventually deploy a POC of the model in Streamlit. The project, which run smoothly and was completed successfully, will be followed by a follow-up chapter which will aim at improving both the model and the way the model is deployed.
+
 # Introduction
 
 This challenge was created to deploy an accurate classifier to identify grooming behavior in online chats with children. Its main aim was to stop online violence against children. The challenge, which united an international team of AI engineers over 8-weeks, was led by chapter lead Alexandre Iang. 
