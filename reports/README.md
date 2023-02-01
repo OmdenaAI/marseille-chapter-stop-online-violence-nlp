@@ -60,7 +60,9 @@ The purpose of this task was to collect a dataset of hate speech in French langu
 
 ### Data Collection
 
-The data collection method used in this task is web scraping, a cost-effective and efficient way to collect data from social media networks. This method involves automatically extracting data from websites using python code and/or no-code tools.
+The data collection method used in this task is web scraping, a cost-effective and efficient way to collect data from social media networks. This method involves automatically extracting data from websites using python code and/or no-code tools. The scraping scripts used in the project are available in the project's repository, in the task's directory: [https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/tasks/task-1-data-collection-and-eda](https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/tasks/task-1-data-collection-and-eda).
+
+
 
 The final dataset contained a total of XXXX sentences.
 
