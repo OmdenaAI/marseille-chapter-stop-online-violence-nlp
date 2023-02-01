@@ -104,7 +104,7 @@ Despite the successful implementation of our model during this chapter, further 
 
 ____________________________________________________
 
-This report was written by Caterina Bonan, Postdoctoral Researcher at the University of Cambridge, who takes full responsibity for any eventual mistake or unaccuracy in it.
+This report was written by Caterina Bonan, Postdoctoral Researcher at the University of Cambridge, who takes full responsibity for any mistake or unaccuracy in it.
 
 ____________________________________________________
 
