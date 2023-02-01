@@ -110,7 +110,7 @@ The data pre-processing team was led by Mohamed Khandil and composed of Lamia Se
 
 ## Exploratory Data Analysis (EDA)
 
-The task leader for this task was Mohamed Khandil.
+The task leader for this task was XXXXXXXX.
 
 ## Model Experimentation and Improvement
 
