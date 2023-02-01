@@ -123,7 +123,12 @@ The task leader for this task was Wajeeha Imtiaz.
 
 Several contributions were made to test different language architectures and choose the on that was most suitable for the project's needs. These were coordinated by the task leader, Wajeeha Imtiaz.
 
-The table below provides an overview of all tested architectures,
+The table below provides an overview of all tested architectures which were eventually not chosen for out classifier:
+
+ | Model | Contributor  | Info | 
+ |-|-|-| 
+
+The model chosen for our classifier was the one developed by Chukwudi Okereafor.
 
 ## Model Deployment
 
