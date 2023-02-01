@@ -140,6 +140,9 @@ The model chosen for our classifier was the one developed by Chukwudi Okereafor.
 ## Model Deployment
 
 ![The POC landing](images/landing.png)
+
+<img src="images/landing.png"  width="60%" height="60%">
+
 ![Classification for hate speech 1](images/hate1.png)
 ![Classification for hate speech 2](images/hate2.png)
 ![Classification for non toxic speech 1](images/homo1.png)
