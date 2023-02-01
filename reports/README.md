@@ -2,7 +2,9 @@
 
 ## A project by the Omdena Marseille Local Chapter.
 
-![The Omdena Marseille Local Chapter Logo](images/french_chapter_logo1.png)
+<p align="center">
+  <img width="100%" height="100%" src="images/french_chapter_logo1.png">
+</p>
 
 _____________________________________________
 
@@ -119,7 +121,9 @@ One of our collaborators, Hassan Outlaouait, worked on the Twitter data and noti
 
 Chukwudi Okereafor graciously provided the following word cloud for our datasets:
 
-![The word clud for our datasets](images/word_cloud.JPG)
+<p align="center">
+  <img width="70%" height="70%" src="images/word_cloud.JPG">
+</p>
 
 The task leader for this task was Wajeeha Imtiaz.
 
@@ -181,7 +185,7 @@ When testing the fine-tuned models to make predictions about new data, Okereafor
 ## Model Deployment
 
 <p align="center">
-  <img width="60%" height="60%" src="images/landing.png">
+  <img width="70%" height="70%" src="images/landing.png">
 </p>
 
 During the last two weeks of the project, the chapter leader Alexandre Iang worked on the deployment of a POC of the model in [Streamlit](https://streamlit.io/).
