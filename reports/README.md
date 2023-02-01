@@ -142,11 +142,11 @@ The model chosen for our classifier was the one developed by Chukwudi Okereafor.
 <img src="images/landing.png"  width="80%" height="80%">
 
 <img src="images/hate1.png"  width="80%" height="80%">
-<img src="images/hate2.png"  width="60%" height="60%">
+<img src="images/hate2.png"  width="40%" height="40%">
 <img src="images/homo1.png"  width="80%" height="80%">
-<img src="images/homo2.png"  width="60%" height="60%">
+<img src="images/homo2.png"  width="40%" height="40%">
 <img src="images/non_toxic1.png"  width="80%" height="80%">
-<img src="images/non_toxic2.png"  width="60%" height="60%">
+<img src="images/non_toxic2.png"  width="40%" height="40%">
 
 # Conclusions
 
