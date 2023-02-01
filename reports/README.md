@@ -172,14 +172,25 @@ ___________________________________________
 ### Participants (in alphabetical order)
 
 Alexandre Iang (chapter leader)
+
 Amine Teffal
+
 Caterina Bonan
+
 Chukwudi Okereafor
+
 Divya Muthu Krishnan
+
 Haider Ali Khan
+
 Hassan Outlaouait
-Lamia Sekkai
+
+Lamia Sekki
+
 Mohamed Kandil
+
 Romy Sayah
+
 Rukshar Alam
+
 Vedanth Baliga
