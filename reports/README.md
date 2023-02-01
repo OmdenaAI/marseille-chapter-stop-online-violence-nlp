@@ -111,7 +111,7 @@ The annotated data was pre-processed to make it ready for the model development 
 
 The data pre-processing team was led by Mohamed Khandil and composed of Lamia Sekkai and Hemanth Sai.
 
-## Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 According to Wikipedia [8], exploratory data analysis (EDA) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
 
