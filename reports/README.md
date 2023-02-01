@@ -80,7 +80,11 @@ During this task, helpful tutorials from platforms like YouTube and Medium were 
 
 ### Data Annotation
 
-All sentences were manually annotated using the categories of hate defined above: SEXISM, RACISM, HOMOPHOBIA, HATE SPEECH, BULLYING.
+Once the dataset was established, the data had to be annotated. Data annotation is needed to help AI algorithms learn to do a required task accurately, e.g. in our case, all instances of hate speech.
+
+To the request of the task leader Mohamed Khandil, all sentences were manually annotated using the categories of hate defined above: SEXISM, RACISM, HOMOPHOBIA, HATE SPEECH, BULLYING. An additonal class, called "NONE", was used for those sentences that were not suitable for the current project. 
+
+The annotation team included Lamia Sekkai, Amine Tiffal, Hemanth Sai, Alexander Lang, Caterina Bonan, Rukshar Alam, Chukwudi Okereafor, and Haider Ali Khan. The tool used for annotation was [https://doccano.herokuapp.com/](Doccano). Label Studio was also considered but eventually disregarded.
 
 The annotated data files are stored in the chapter's repository's dedicated directory: [https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/annotated_data](https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/annotated_data).
 
