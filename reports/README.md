@@ -54,15 +54,25 @@ At this early stage, different classes of hate were identified. Five among the m
 
 The five classes above were used to determine which data to collect and later, as labels for data annotation.
 
-## Data Acquisition
+## Dataset Creation
 
-The dataset used in this challeng was collected from different websites and social media inclusing Twitter, Reddit, .
+The purpose of this task was to collect a dataset of hate speech in French language from various social media networks. The collected data was subsequently used to develop an artificial intelligence (AI) algorithm to detect hate speech on social media.
 
-The dataset contained XXXX total occurrences.
+### Data Collection
+
+The data collection method used in this task is web scraping, a cost-effective and efficient way to collect data from social media networks. This method involves automatically extracting data from websites using python code and/or no-code tools.
+
+The final dataset contained a total of XXXX sentences.
+
+### Data Annotation
 
 All sentences were manually annotated using the categories of hate defined above: SEXISM, RACISM, HOMOPHOBIA, HATE SPEECH, BULLYING.
 
+The task leader for this task was Mohamed Khandil.
+
 ## Exploratory Data Analysis (EDA)
+
+The task leader for this task was Mohamed Khandil.
 
 ## Model Experimentation and Improvement
 
