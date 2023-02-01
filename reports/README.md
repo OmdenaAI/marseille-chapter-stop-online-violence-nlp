@@ -32,6 +32,8 @@ From the original challenge, the team has a large dataset of more than 800,000 l
 
 The team goal was to stop online violence against children by deploying an accurate classifier to identify grooming behavior in online chats with children. Once suspicion of grooming reaches a threshold based on its similarity to the training data, it will trigger an action, which may differ depending on the platform it is deployed on and the objectives of the intervention. As an example, the team may warn the child through the chatbot without alerting the groomer, call a moderator, or shut down the chat entirely.
 
+![An image of a child looking at their phone, courtesy of Save The Children](Deploying-an-Accurate-Classifier-to-Stop-Online-Violence-Against-Children-using-NLP-980x233.png.webp)
+
 # Our Solution
 
 For this challenge, we decided to collect additional data on hate speech from the Internet, classify them using five labels related to the field of 'hate', and then clean the data and use it to fine-tune a pre-existing language model.
