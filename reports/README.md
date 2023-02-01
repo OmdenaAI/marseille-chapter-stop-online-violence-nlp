@@ -127,7 +127,7 @@ The task leader for this task was Wajeeha Imtiaz.
 
 Model experimentation and improvement, quite expectedly, was the most time-consuming of all the chapter's tasks. Several contributions were made to test different language architectures and choose the on that was most suitable for the project's needs. These were coordinated by the task leader, Wajeeha Imtiaz.
 
-The table below provides an overview of all tested architectures which were eventually not chosen for out classifier:
+The table below provides an overview of all architectures tested for out classifier:
 
  | Contributor | Model  | Type  | Additional Info | 
  |-|-|-|-|
@@ -136,8 +136,7 @@ The table below provides an overview of all tested architectures which were even
  | Vedanth Baliga| BERT | Transformers | Used Pytorch Lightning and built a learning rate scheduler with custom learning rate. |
  | Hassan Outlaouait | 9 dense layers | Deep learning | Balanced the dataset using the SMOTE technique for oversampling, then vectorized it using the TfidfVectorizer technique. |
  | Divya Muthu Krishnan | CamemBERT | Transformers | 95% accuracy on training data, 85% validation accuracy, 84% test accuracy. Used shuffled split in `sklearn` to adjust the ratio of instances in train/val/test. |
- | | | | |
- | | | | |
+ | Chukwudi Okereafor | DistilBERT | Transformers | Fine-tuned both using native Tensorflow and the TFTrainer class. Obtained about 89% accuracy with both. |
  
  While the models by Vedanth Baliga and Divya Muthu Krishnan had performances close to Chukwudi Okereafor's 89%, Okereafor's model was eventually selected because it was computationally lighter.
  
