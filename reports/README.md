@@ -133,7 +133,7 @@ The table below provides an overview of all architectures tested for out classif
 
  | Contributor | Model  | Type  | Additional Info | 
  |-|-|-|-|
- | Lamia Sekkai | Distil_BERT | Transformers | Hyper parameters fine tuning of Base model provided by Alexander Lang. Due to dataset size, data augmentation was performed using the `nlpaug` library. |
+ | Lamia Sekkai | DistilBERT | Transformers | Hyper parameters fine tuning of Base model provided by Alexander Lang. Due to dataset size, data augmentation was performed using the `nlpaug` library. |
  | Lamia Sekkai | FastText Word Embedding (RNN) | Deep learning  | Demonstrated that a smaller quantity of labels would yield better classification results for our task. |
  | Vedanth Baliga| BERT | Transformers | Used Pytorch Lightning for hyperparameter tuning and built a learning rate scheduler to converge at the minimal loss. Validation accuracy of 92%|
  | Hassan Outlaouait | 9 dense layers | Deep learning | Balanced the dataset using the SMOTE technique for oversampling, then vectorized it using the TfidfVectorizer technique. |
@@ -170,7 +170,7 @@ The `TFTrainer` (Trainer for Pytorch) is a class provided by the transformers li
 
 The `TFTrainingArguments` is how customization arguments are set for the training loop. This makes them available for later use in the `TFTrainer` class. The model is instantiated using the `TFDistilBertForSequenceClassification` class, and then finally built by instantiating the TFTrainer class and passing in the different options defined along with the datasets. 
 
-The results of this fine-tuning can be appreciated below:
+The results of this fine-tuning can be seen below:
 
 ![Photo](images/3.png)
 
