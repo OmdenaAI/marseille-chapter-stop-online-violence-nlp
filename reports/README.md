@@ -136,8 +136,54 @@ The table below provides an overview of all tested architectures which were even
  | | | | |
  | | | | |
  | | | | |
+ 
+ ### The Selected Model
 
-The model chosen for our classifier was the one developed by Chukwudi Okereafor.
+The model chosen for our classifier was the one developed by Chukwudi Okereafor. Chukwudi fine-tuned [DistilBert](https://huggingface.co/docs/transformers/model_doc/distilbert) for our multi-class text classification problem using the Twitter dataset. 
+
+Fine-tuning in the HuggingFace's `transformers` library involves using a pre-trained model and a tokenizer that is compatible with that model's architecture and input requirements. Each pre-trained model in transformers can be accessed using the right model class and be used with the associated tokenizer class. Since we want to use DistilBert for a classification task, we will use the `DistilBertTokenizer`'s tokenizer class to tokenize our texts and then use `TFDistilBertForSequenceClassification` model class in a later section to fine-tune the pre-trained model using the output from the tokenizer.
+
+The `DistilBertTokenizer` generates input_ids and attention_mask as outputs. This is what is required by a DistilBert model as its inputs.
+
+So, in the above code, we defined the tokenizer object using the `from_pretrained()` method which downloads and caches the tokenizer files associated with the DistilBert model. When we pass text through this tokenizer the generated output will be in the format expected by the DistilBert architecture, as stated above. We use `padding` and `truncation` to make sure all the vectors are the same size.
+
+Now that we have our texts in an encoded form, there is only one step left before we can begin the fine-tuning process.
+
+Before we can move on to the fine-tuning phase, we need to convert our input encodings and labels into a TensorFlow Dataset object. We do this by passing them to the `from_tensor_slices` constructor method. Now the data is in the right form and can be used to fine-tune the model.
+
+### Fine-tuning using native Tensorflow
+
+We use the from_pretrained() method to initialize a pre-trained model. This will load in the weights and initialize the model with the preset configurations.
+
+The DistilBert model and other models available in the transformers library are standard tf.keras.Model classes (and torch.nn.Module in the case of Pytorch), and so we may use them just as we would use a model that we may have defined ourselves using the native TensorFlow and Keras API. Also, notice the num_labels=6 parameter, this is because we have a total of 5 classes.
+
+It is also possible for us to customize the model by changing its configuration.
+The data is prepared and the model is defined. Let's begin training!
+
+![Training 1](training1.png)
+
+After 3 epochs we get an accuracy of 0.79 and a val_accuracy of 0.72. Not bad!
+
+The model is fine-tuned and evaluated using the `train_dataset` and `val_dataset` that we created earlier. The `shuffle()` method shuffles the elements of the dataset, and `batch()` creates batches with batch_size of 16. 
+
+Now our model is fine-tuned and is ready to be saved and used to make predictions on new data. 
+The next section, however, discusses using the provided TFTrainer class, which is an alternative method to fine-tune a model in transformers.
+
+### Fine-tuning using the TFTrainer class
+
+The `TFTrainer` (Trainer for Pytorch) is a class provided by the transformers library that offers a simple, yet feature-rich, method of training and evaluating models.
+
+The following code shows how to define the configuration settings and build a model using the TFTrainer class.
+
+![]()
+
+The `TFTrainingArguments` is how we set customization arguments for the training loop and later use them in the `TFTrainer` class. We instantiate the model using the `TFDistilBertForSequenceClassification` class. And then finally, we build the model by instantiating the TFTrainer class and passing in the different options we have defined along with our datasets.
+
+![]()
+
+A visualisation of model loss and accuracy can be seen below:
+
+![]()
 
 ## Model Deployment
 
