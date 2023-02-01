@@ -67,8 +67,7 @@ The data collection method used in this task is web scraping, a cost-effective a
 The datasets collected and utilised in the project are listed in the Table below, along with the names of those who participated in the task:
 
  | Dataset | Dataset Name | Contributors | 
-  | - | - | - |  
-  
+  |-|-|-|  
   | 1 | Twitter  | Lamia Sekkai, Hemanth Sai, Mohamed Kandil | 
   | 2 | Reddit | Mohamed Kandil | 
 
