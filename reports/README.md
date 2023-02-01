@@ -134,7 +134,7 @@ The table below provides an overview of all architectures tested for out classif
  | Contributor | Model  | Type  | Additional Info | 
  |-|-|-|-|
  | Lamia Sekkai | Distil_BERT | Transformers | Hyper parameters fine tuning of Base model provided by Alexander Lang. Due to dataset size, data augmentation was performed using the `nlpaug` library. |
- | Lamia Sekkai | FastText Word Embedding (RNN) | Deep learning  | Demonstrated that a smaller quentity of labels would yield better classification results for our task. |
+ | Lamia Sekkai | FastText Word Embedding (RNN) | Deep learning  | Demonstrated that a smaller quantity of labels would yield better classification results for our task. |
  | Vedanth Baliga| BERT | Transformers | Used Pytorch Lightning for hyperparameter tuning and built a learning rate scheduler to converge at the minimal loss. Validation accuracy of 92%|
  | Hassan Outlaouait | 9 dense layers | Deep learning | Balanced the dataset using the SMOTE technique for oversampling, then vectorized it using the TfidfVectorizer technique. |
  | Divya Muthu Krishnan | CamemBERT | Transformers | 95% accuracy on training data, 85% validation accuracy, 84% test accuracy. Used shuffled split in `sklearn` to adjust the ratio of instances in train/val/test. |
