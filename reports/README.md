@@ -110,11 +110,17 @@ The data pre-processing team was led by Mohamed Khandil and composed of Lamia Se
 
 ## Exploratory Data Analysis (EDA)
 
-The task leader for this task was XXXXXXXX.
+Chukwudi Okereafor provided the following word cloud for our datasets:
+
+
+
+The task leader for this task was Wajeeha Imtiaz.
 
 ## Model Experimentation and Improvement
 
+Several contributions were made to test different language architectures and choose the on that was most suitable for the project's needs. These were coordinated by the task leader, Wajeeha Imtiaz.
 
+The table below provides an overview of all tested architectures,
 
 ## Model Deployment
 
