@@ -141,7 +141,7 @@ The model chosen for our classifier was the one developed by Chukwudi Okereafor.
 
 During the last two weeks of the project, the chapter leader Alexandre Iang worked on the deployment of a POC of the model in [Streamlit](https://streamlit.io/).
 
-A POC, or proof of concept, is an experiment intended to show that a program, product, or system can be successfully deployed in the real world. 
+A POC, or proof of concept, is an experiment intended to show that a program, product, or system can be successfully deployed in the real world. Streamlit, on the other hand, is an open-source app framework for Machine Learning and Data Science. It helps create and publish web apps in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc., and it does not require any front-end experience.
 
 <img src="images/landing.png"  width="80%" height="80%">
 
