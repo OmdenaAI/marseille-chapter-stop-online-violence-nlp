@@ -134,8 +134,8 @@ The table below provides an overview of all tested architectures which were even
  | Lamia Sekkai | Distil_BERT | Transformers | Hyper parameters fine tuning of Base model provided by Alexander Lang. Due to dataset size, data augmentation was performed using the `nlpaug` library. |
  | Lamia Sekkai | FastText Word Embedding (RNN) | Deep learning  | Demonstrated that a smaller quentity of labels would yield better classification results for our task. |
  | Vedanth Baliga| BERT | Transformers | Used Pytorch Lightning and built a learning rate scheduler with custom learning rate. |
- | | | | |
- | | | | |
+ | Hassan Outlaouait | 9 dense layers | Deep learning | Balanced the dataset using the SMOTE technique for oversampling, then vectorized it using the TfidfVectorizer technique. |
+ | Divya Muthu Krishnan | CamemBERT | Transformers | 95% accuracy on training data, 85% validation accuracy, 84% test accuracy. |
  | | | | |
  | | | | |
  
