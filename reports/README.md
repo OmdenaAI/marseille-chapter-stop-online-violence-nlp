@@ -40,7 +40,7 @@ For this challenge, we decided to collect additional data on hate speech from th
 
 The first days of the project were dedicated to the onboarding, and to the definition of the materials to be used by the engineers to acquire domain knowledge.
 
-At this early stage, different classes of hate speech were identified. Five among the most important classes of hate speech were defined as followed:
+At this early stage, different classes of hate were identified. Five among the most important classes of hate were defined as followed:
 
 - *Sexism*: Refers to acts of violence that: 1) occur or linger in cyberspace; 2) are sexist, or sexual in nature; and 3) who reiterates dominant gender norms targeting girls and boys (tarnishing the former’s reputation and threatening the latter’s masculinity);
 
@@ -52,15 +52,21 @@ At this early stage, different classes of hate speech were identified. Five amon
 
 - *Bullying*: Bullying is a form of aggressive behavior in which someone intentionally and  repeatedly causes another person injury or discomfort. Bullying can take the form of physical contact, words, or more subtle actions. The bullied individual typically  has trouble defending him or herself and does nothing to “cause” the bullying. Cyberbullying is verbally threatening or harassing behavior conducted through such   electronic   technology   as   cell   phones,   email,   social   media,   or   text messaging. Cyberbullying is verbally threatening or harassing behavior conducted through such   electronic   technology   as   cell   phones,   email,   social   media,   or   text messaging [7].
 
-The five classes above were subsequently used for data annotation.
+The five classes above were used to determine which data to collect and later, as labels for data annotation.
 
 ## Data Acquisition
 
+The dataset used in this challeng was collected from different websites and social media inclusing Twitter, Reddit, .
 
+The dataset contained XXXX total occurrences.
+
+All sentences were manually annotated using the categories of hate defined above: SEXISM, RACISM, HOMOPHOBIA, HATE SPEECH, BULLYING.
 
 ## Exploratory Data Analysis (EDA)
 
 ## Model Experimentation and Improvement
+
+
 
 ## Model Deployment
 
