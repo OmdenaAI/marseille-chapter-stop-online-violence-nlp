@@ -77,7 +77,7 @@ The datasets collected and utilised in the project are listed in the Table below
   | 1 | Twitter  | Lamia Sekkai, Hemanth Sai, Mohamed Kandil | 
   | 2 | Reddit | Mohamed Kandil | 
 
-Data from Snapchat,Instagram, and Reddit were collected but discarded due to lack of participants in the annotation task.
+Data from Snapchat, Instagram, and Reddit were collected but discarded due to lack of participants in the annotation task.
 
 The datasets in the Table above are stored in the task's directory: [https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/raw_data](https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/raw_data).
 
@@ -99,7 +99,7 @@ To the request of the task leader Mohamed Khandil, all sentences were manually a
 
 - BULLYING. 
  
-An additonal class, called "NONE", was used for those sentences that were not suitable for the current project. 
+An additional class, called "NONE", was used for those sentences that were not suitable for the current project. 
 
 The annotation team included Lamia Sekkai, Amine Tiffal, Hemanth Sai, Alexander Lang, Caterina Bonan, Rukshar Alam, Chukwudi Okereafor, and Haider Ali Khan. The tool used for annotation was [Doccano](https://doccano.herokuapp.com/). [Label Studio](https://labelstud.io/) was also considered but eventually disregarded.
 
@@ -107,15 +107,15 @@ The annotated data files are stored in the chapter's repository's dedicated dire
 
 ### Data Preprocessing
 
-The annotated data was pre-processed to make it ready for the model development step. The pre-processing involved removing stopwords, punctuations, URLs, emojis, and other irrelevant information. This step is fundamental in any ML pipeline based on textual data, as it helps the AI algorithm to focus on the most relevant information, thus improving its accuracy (in our case, in detecting hate speech). However, some of the steps listed above are not required if the models to be used to implement hate speech detection are are Transformers or Langage Models' based.
+The annotated data was pre-processed to make it ready for the model development step. The pre-processing involved removing stop words, punctuation, URLs, emojis, and other irrelevant information. This step is fundamental in any ML pipeline based on textual data, as it helps the AI algorithm to focus on the most relevant information, thus improving its accuracy (in our case, in detecting hate speech). However, some of the steps listed above are not required if the models to be used to implement hate speech detection are Transformers or Language Model based.
 
 The data pre-processing team was led by Mohamed Khandil and composed of Lamia Sekkai and Hemanth Sai.
 
 ### Exploratory Data Analysis (EDA)
 
-According to Wikipedia [8], exploratory data analysis (EDA) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
+According to Wikipedia [8], exploratory data analysis (EDA) is an approach of analysing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
 
-One of our collaborators, Hassan Outlaouait, worked on the Twitter data and noticed that the labels used by the various collaborators needed to be standardised, which he did by choosing to camelcase them. He also signalled the overall data imbalance between the six chosen labels, and suggested to balance the dataset using the SMOTE technique for oversampling.
+One of our collaborators, Hassan Outlaouait, worked on the Twitter data and noticed that the labels used by the various collaborators needed to be standardised, which he did by choosing to sentence case them. He also signalled the overall data imbalance between the six chosen labels, and suggested to balance the dataset using the SMOTE technique for oversampling.
 
 Chukwudi Okereafor graciously provided the following word cloud for our datasets:
 
