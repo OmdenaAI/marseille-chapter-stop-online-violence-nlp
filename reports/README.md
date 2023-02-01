@@ -160,7 +160,7 @@ The DistilBert model and other models available in the transformers library are 
 It is also possible for us to customize the model by changing its configuration.
 The data is prepared and the model is defined. Let's begin training!
 
-![Training 1](training1.png)
+![Training 1](images/1.png)
 
 After 3 epochs we get an accuracy of 0.79 and a val_accuracy of 0.72. Not bad!
 
@@ -175,15 +175,15 @@ The `TFTrainer` (Trainer for Pytorch) is a class provided by the transformers li
 
 The following code shows how to define the configuration settings and build a model using the TFTrainer class.
 
-![]()
+![Photo](images/2.png)
 
 The `TFTrainingArguments` is how we set customization arguments for the training loop and later use them in the `TFTrainer` class. We instantiate the model using the `TFDistilBertForSequenceClassification` class. And then finally, we build the model by instantiating the TFTrainer class and passing in the different options we have defined along with our datasets.
 
-![]()
+![Photo](images/3.png)
 
 A visualisation of model loss and accuracy can be seen below:
 
-![]()
+![Photo](images/output.png)
 
 When testing the fine-tuned models to make predictions about new data, Chukwudi demonstrated that both models yielded identical results, and 89% accuracy.
 
