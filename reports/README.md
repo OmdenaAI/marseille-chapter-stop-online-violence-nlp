@@ -117,7 +117,9 @@ According to Wikipedia [8], exploratory data analysis (EDA) is an approach of an
 
 One of our collaborators, Hassan Outlaouait, worked on the Twitter data and noticed that the labels used by the various collaborators needed to be standardised, which he did by choosing to sentence case them. He also signalled the overall data imbalance between the six chosen labels, and suggested to balance the dataset using the SMOTE technique for oversampling. The imbalance is illustrated in the following graph created by Chukwudi Okereafor:
 
-![graph](images/download.png)
+<p align="center">
+  <img width="70%" height="70%" src="images/download.png">
+</p>
 
 Okereafor also graciously provided the following word cloud for our datasets:
 
