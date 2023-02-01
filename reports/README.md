@@ -70,11 +70,11 @@ Despite the successful implementation of our model during this chapter, further 
 
 # References
 
-[1] 
+[1] Sørensen, 2015
 
-[2]
+[2] Greijer et al., 2016
 
-[3]
+[3] Juusola et al., 2021
 
 [4] [https://racismnoway.com.au/about-racism/cyber-racism/](https://racismnoway.com.au/about-racism/cyber-racism/)
 
