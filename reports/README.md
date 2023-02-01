@@ -180,7 +180,9 @@ When testing the fine-tuned models to make predictions about new data, Okereafor
 
 ## Model Deployment
 
-<img src="images/landing.png"  width="80%" height="80%">
+<p align="center">
+  <img width="60%" height="60%" src="images/landing.png">
+</p>
 
 During the last two weeks of the project, the chapter leader Alexandre Iang worked on the deployment of a POC of the model in [Streamlit](https://streamlit.io/).
 
