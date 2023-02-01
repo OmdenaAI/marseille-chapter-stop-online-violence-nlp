@@ -188,6 +188,10 @@ A POC, or proof of concept, is an experiment intended to show that a program, pr
 
 The POC for this project is quite simple and has the form of an interface that prompts a sentence in French from the user, and then classifies it using our ML model. Below is an example of 'hate speech' prompt, and its correct classification:
 
+Prompt             |  Output
+:-------------------------:|:-------------------------:
+![](images/hate1.png)  |  ![](images/hate2.png)
+
 <img src="images/hate1.png"  width="80%" height="80%">
 <img src="images/hate2.png"  width="30%" height="30%">
 
