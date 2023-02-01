@@ -66,7 +66,9 @@ The task leader for this task was Mohamed Khandil.
 
 ### Data Collection
 
-The data collection method used in this task is web scraping, a cost-effective and efficient way to collect data from social media networks. This method involves automatically extracting data from websites using python code and/or no-code tools. The scraping scripts used in the project are available in the project's repository, in the task's directory: [https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/tasks/task-1-data-collection-and-eda](https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/tasks/task-1-data-collection-and-eda). These were developed by Lamia Sekkai, Mohamed Kandil, Mk_Veee, Rukshar Alam, Romy Sayah, Mohsen Selseleh.
+The data collection method used in this task is web scraping, a cost-effective and efficient way to collect data from social media networks. This method involves automatically extracting data from websites using python code and/or no-code tools. The scraping scripts used in the project are available in the project's repository, in the task's directory: [https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/tasks/task-1-data-collection-and-eda](https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/tasks/task-1-data-collection-and-eda). 
+
+These were developed by Lamia Sekkai, Mohamed Kandil, Mk_Veee, Rukshar Alam, Romy Sayah, Mohsen Selseleh.
 
 The datasets collected and utilised in the project are listed in the Table below, along with the names of those who participated in the task:
 
@@ -137,7 +139,7 @@ The table below provides an overview of all tested architectures which were even
  | | | | |
  | | | | |
  
- While the models by Vedanth Baliga, Divya Muthu Krishnan and Chukwudi Okereafor had similar performances, as shown in the Table below, Okereafor's model was eventually selected because it was computationally lighter.
+ While the models by Vedanth Baliga and Divya Muthu Krishnan had performances close to Chukwudi Okereafor's 89%, Okereafor's model was eventually selected because it was computationally lighter.
  
  ### The Selected Model
 
