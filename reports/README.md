@@ -139,17 +139,15 @@ The table below provides an overview of all tested architectures which were even
  
  ### The Selected Model
 
-The model chosen for our classifier was the one developed by Chukwudi Okereafor. Chukwudi fine-tuned [DistilBert](https://huggingface.co/docs/transformers/model_doc/distilbert) for our multi-class text classification problem using the Twitter dataset. 
+The model chosen for our classifier was the one developed by Chukwudi Okereafor. Okereafor fine-tuned [DistilBert](https://huggingface.co/docs/transformers/model_doc/distilbert) for our multi-class text classification problem using the Twitter dataset. 
 
-Fine-tuning in the HuggingFace's `transformers` library involves using a pre-trained model and a tokenizer that is compatible with that model's architecture and input requirements. Each pre-trained model in transformers can be accessed using the right model class and be used with the associated tokenizer class. Since we want to use DistilBert for a classification task, we will use the `DistilBertTokenizer`'s tokenizer class to tokenize our texts and then use `TFDistilBertForSequenceClassification` model class in a later section to fine-tune the pre-trained model using the output from the tokenizer.
+Fine-tuning in the HuggingFace's `transformers` library involves using a pre-trained model and a tokenizer that is compatible with that model's architecture and input requirements. Each pre-trained model in transformers can be accessed using the right model class and be used with the associated tokenizer class. Since we needed DistilBert for a classification task, Okereafor chose the `DistilBertTokenizer`'s tokenizer class to tokenize our texts and then used `TFDistilBertForSequenceClassification` model class in a later section to fine-tune the pre-trained model using the output from the tokenizer.
 
-The `DistilBertTokenizer` generates input_ids and attention_mask as outputs. This is what is required by a DistilBert model as its inputs.
+The `DistilBertTokenizer` generates input_ids and attention_mask as outputs. This is what is required by a DistilBert model as its inputs. Therefore, Okereafor defined the tokenizer object using the `from_pretrained()` method which downloads and caches the tokenizer files associated with the DistilBert model. He used `padding` and `truncation` to make sure all the vectors were the same size.
 
-So, in the above code, we defined the tokenizer object using the `from_pretrained()` method which downloads and caches the tokenizer files associated with the DistilBert model. When we pass text through this tokenizer the generated output will be in the format expected by the DistilBert architecture, as stated above. We use `padding` and `truncation` to make sure all the vectors are the same size.
+Once the texts in an encoded form, there is one further step is needed before beginning the fine-tuning process: the conversion of the input encodings and labels into a TensorFlow Dataset object. Okereafor did this by passing them to the `from_tensor_slices` constructor method.
 
-Now that we have our texts in an encoded form, there is only one step left before we can begin the fine-tuning process.
-
-Before we can move on to the fine-tuning phase, we need to convert our input encodings and labels into a TensorFlow Dataset object. We do this by passing them to the `from_tensor_slices` constructor method. Now the data is in the right form and can be used to fine-tune the model.
+Okereafor chose to fine-tune Distilbert using two different methods, which are overviewed below.
 
 ### Fine-tuning using native Tensorflow
 
