@@ -79,7 +79,6 @@ The datasets in the Table above are stored in the task's directory: [https://git
 
 During this task, helpful tutorials from platforms like YouTube and Medium were shared with the team by Mohammed Raouf, Ganesh Lokare, Caterina Bonan, and Mohamed Kandil. The existence of public datasets on the topic, which were however not used for training purposes, was pointed out by Ganesh Lokare and Mariana Escobar Quiceno. The chapter leader Alexander Lang additionally conducted a workshop tutorial on how to build en ETL pipeline with the twitter API and airflow.
 
-
 ### Data Annotation
 
 Once the dataset was established, the data had to be annotated. Data annotation is needed to help AI algorithms learn to do a required task accurately, e.g. in our case, all instances of hate speech.
@@ -112,9 +111,9 @@ The data pre-processing team was led by Mohamed Khandil and composed of Lamia Se
 
 According to Wikipedia [8], exploratory data analysis (EDA) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
 
-One of our collaborators, 
+One of our collaborators, Hassan Outlaouait, worked on the Twitter data and noticed that the labels used by the various collaborators needed to be standardised, which he did by choosing to camelcase them. He also signalled the overall data imbalance between the six chosen labels, and suggested to balance the dataset using the SMOTE technique for oversampling, and to vectorize the text using the TfidfVectorizer technique.
 
-Chukwudi Okereafor provided the following word cloud for our datasets:
+Chukwudi Okereafor graciously provided the following word cloud for our datasets:
 
 ![The word clud for our datasets](word_cloud.JPG)
 
