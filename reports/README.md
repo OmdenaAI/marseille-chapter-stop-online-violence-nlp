@@ -186,14 +186,13 @@ During the last two weeks of the project, the chapter leader Alexandre Iang work
 
 A POC, or proof of concept, is an experiment intended to show that a program, product, or system can be successfully deployed in the real world. Streamlit, on the other hand, is an open-source app framework for Machine Learning and Data Science. It helps create and publish web apps in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc., and it does not require any front-end experience.
 
-The POC for this project is quite simple and has the form of an interface that prompts a sentence in French from the user, and then classifies it using our ML model. Below is an example of 'hate speech' prompt, and its correct classification:
+The POC for this project is quite simple and has the form of an interface that prompts a sentence in French from the user, and then classifies it using our ML model. Below is an example of 'hate speech' and 'homophobic' prompts, and their correct classifications:
 
 Prompt             |  Output
 :-------------------------:|:-------------------------:
 ![](images/hate1.png)  |  ![](images/hate2.png)
-
-<img src="images/hate1.png"  width="80%" height="80%">
-<img src="images/hate2.png"  width="30%" height="30%">
+:-------------------------:|:-------------------------:
+![](images/hate1.png)  |  ![](images/hate2.png)
 
 As illustrated in the image above, the application provides not only a classification for the sentence, but also the probabilities that the sentence has to belong to all considered classes. As was our goal, also non toxicity is correctly detected, as illustrated by the sentence below and its classification.
 
