@@ -162,7 +162,9 @@ Okereafor chose to fine-tune Distilbert using two different methods, which are o
 
 The from_pretrained() method is used to initialize a pre-trained model. This loads in the weights and initializes the model with the defined configurations. The DistilBert model and other models available in the transformers library are standard `tf.keras.Model` classes (and `torch.nn.Module` in the case of Pytorch), and so they can be used just as any native TensorFlow and Keras API. The results of the training done by Okereafor can be seen in the image below:
 
-![Training 1](images/1.png)
+ <p align="center">
+  <img src="images/1.png">
+</p>
 
 After 3 epochs, he obtained an accuracy of 0.79 and a val_accuracy of 0.72, both of which are satisfying.
 
@@ -170,7 +172,9 @@ After 3 epochs, he obtained an accuracy of 0.79 and a val_accuracy of 0.72, both
 
 The `TFTrainer` (Trainer for Pytorch) is a class provided by the transformers library that offers a simple, yet feature-rich, method of training and evaluating models. The following code by Okereafor demonstrates how to define the configuration settings and build a model using the TFTrainer class:
 
-![Photo](images/2.png)
+ <p align="center">
+  <img src="images/2.png">
+</p>
 
 The `TFTrainingArguments` is how customization arguments are set for the training loop. This makes them available for later use in the `TFTrainer` class. The model is instantiated using the `TFDistilBertForSequenceClassification` class, and then finally built by instantiating the TFTrainer class and passing in the different options defined along with the datasets. 
 
