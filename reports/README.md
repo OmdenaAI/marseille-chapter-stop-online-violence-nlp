@@ -2,7 +2,7 @@
 
 ## A project by the Omdena Marseille Local Chapter.
 
-![The Omdena Marseille Local Chapter Logo](french_chapter_logo1.png)
+![The Omdena Marseille Local Chapter Logo](images/french_chapter_logo1.png)
 
 _____________________________________________
 
@@ -32,7 +32,7 @@ From the original challenge, the team has a large dataset of more than 800,000 l
 
 The team goal was to stop online violence against children by deploying an accurate classifier to identify grooming behavior in online chats with children. Once suspicion of grooming reaches a threshold based on its similarity to the training data, it will trigger an action, which may differ depending on the platform it is deployed on and the objectives of the intervention. As an example, the team may warn the child through the chatbot without alerting the groomer, call a moderator, or shut down the chat entirely.
 
-![An image of a child looking at their phone, courtesy of Save The Children](Deploying-an-Accurate-Classifier-to-Stop-Online-Violence-Against-Children-using-NLP-980x233.png.webp)
+![An image of a child looking at their phone, courtesy of Save The Children](images/Deploying-an-Accurate-Classifier-to-Stop-Online-Violence-Against-Children-using-NLP-980x233.png.webp)
 
 # Our Solution
 
@@ -115,7 +115,7 @@ One of our collaborators, Hassan Outlaouait, worked on the Twitter data and noti
 
 Chukwudi Okereafor graciously provided the following word cloud for our datasets:
 
-![The word clud for our datasets](word_cloud.JPG)
+![The word clud for our datasets](images/word_cloud.JPG)
 
 The task leader for this task was Wajeeha Imtiaz.
 
@@ -138,6 +138,14 @@ The table below provides an overview of all tested architectures which were even
 The model chosen for our classifier was the one developed by Chukwudi Okereafor.
 
 ## Model Deployment
+
+![The POC landing](images/landing.png)
+![Classification for hate speech 1](images/hate1.png)
+![Classification for hate speech 2](images/hate2.png)
+![Classification for non toxic speech 1](images/homo1.png)
+![Classification for non toxic speech 2](images/homo2.png)
+![Classification for homophobic speech 1](images/non_toxic1.png)
+![Classification for homophobic speech 2](images/non_toxic2.png)
 
 # Conclusions
 
