@@ -102,6 +102,12 @@ The annotation team included Lamia Sekkai, Amine Tiffal, Hemanth Sai, Alexander 
 
 The annotated data files are stored in the chapter's repository's dedicated directory: [https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/annotated_data](https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/annotated_data).
 
+### Data Preprocessing
+
+The annotated data was pre-processed to make it ready for the model development step. The pre-processing involved removing stopwords, punctuations, URLs, emojis, and other irrelevant information. This step is fundamental in any ML pipeline based on textual data, as it helps the AI algorithm to focus on the most relevant information, thus improving its accuracy (in our case, in detecting hate speech).
+
+The data pre-processing team was led by Mohamed Khandil and composed of Lamia Sekkai and Hemanth Sai.
+
 ## Exploratory Data Analysis (EDA)
 
 The task leader for this task was Mohamed Khandil.
