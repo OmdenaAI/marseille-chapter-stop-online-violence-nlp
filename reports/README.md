@@ -234,7 +234,7 @@ Sexual Abuse. ECPAT International and ECPAT Luxembourg. [http://luxembourgguidel
 
 ____________________________________________________
 
-This report was written and submitted by Caterina Bonan, Postdoctoral Researcher at the University of Cambridge, who takes full responsibity for any mistake or unaccuracy in it.
+This report was written and submitted by Caterina Bonan, Postdoctoral Researcher at the University of Cambridge, who takes full responsibility for any mistake or inaccuracy in it.
 
 ____________________________________________________
 
