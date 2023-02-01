@@ -110,6 +110,10 @@ The data pre-processing team was led by Mohamed Khandil and composed of Lamia Se
 
 ## Exploratory Data Analysis (EDA)
 
+According to Wikipedia [8], exploratory data analysis (EDA) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
+
+One of our collaborators, 
+
 Chukwudi Okereafor provided the following word cloud for our datasets:
 
 ![The word clud for our datasets](word_cloud.JPG)
@@ -149,6 +153,8 @@ ____________________________________________________
 [6] [https://www.un.org/en/hate-speech/understanding-hate-speech/what-is-hate-speech](https://www.un.org/en/hate-speech/understanding-hate-speech/what-is-hate-speech)
 
 [7] [https://www.apa.org/topics/bullying](https://www.apa.org/topics/bullying)
+
+[8] [https://en.wikipedia.org/wiki/Exploratory_data_analysis](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
 
 ___________________________________________
 
