@@ -195,8 +195,9 @@ Prompt             |  Output
 
 As illustrated in the image above, the application provides not only a classification for the sentence, but also the probabilities that the sentence has to belong to all considered classes. As was our goal, also non toxicity is correctly detected, as illustrated by the sentence below and its classification.
 
-<img src="images/non_toxic1.png"  width="80%" height="80%">
-<img src="images/non_toxic2.png"  width="30%" height="30%">
+Prompt             |  Output
+:-------------------------:|:-------------------------:
+![](images/non_toxic1.png)  |  ![](images/non_toxic2.png)
 
 Please note that all images in this sections are from a demo graciously provided by our collaborator Divya Muthu Krishnan.
 
