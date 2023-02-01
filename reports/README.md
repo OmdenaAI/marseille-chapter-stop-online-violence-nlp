@@ -151,31 +151,21 @@ Okereafor chose to fine-tune Distilbert using two different methods, which are o
 
 ### Fine-tuning using native Tensorflow
 
-We use the from_pretrained() method to initialize a pre-trained model. This will load in the weights and initialize the model with the preset configurations.
-
-The DistilBert model and other models available in the transformers library are standard tf.keras.Model classes (and torch.nn.Module in the case of Pytorch), and so we may use them just as we would use a model that we may have defined ourselves using the native TensorFlow and Keras API. Also, notice the num_labels=6 parameter, this is because we have a total of 5 classes.
-
-It is also possible for us to customize the model by changing its configuration.
-The data is prepared and the model is defined. Let's begin training!
+The from_pretrained() method is used to initialize a pre-trained model. This loads in the weights and initializes the model with the defined configurations. The DistilBert model and other models available in the transformers library are standard `tf.keras.Model` classes (and `torch.nn.Module` in the case of Pytorch), and so they can be used just as any native TensorFlow and Keras API. The results of the training done by Okereafor can be seen in the image below:
 
 ![Training 1](images/1.png)
 
-After 3 epochs we get an accuracy of 0.79 and a val_accuracy of 0.72. Not bad!
-
-The model is fine-tuned and evaluated using the `train_dataset` and `val_dataset` that we created earlier. The `shuffle()` method shuffles the elements of the dataset, and `batch()` creates batches with batch_size of 16. 
-
-Now our model is fine-tuned and is ready to be saved and used to make predictions on new data. 
-The next section, however, discusses using the provided TFTrainer class, which is an alternative method to fine-tune a model in transformers.
+After 3 epochs, he obtained an accuracy of 0.79 and a val_accuracy of 0.72, both of which are satisfying.
 
 ### Fine-tuning using the TFTrainer class
 
-The `TFTrainer` (Trainer for Pytorch) is a class provided by the transformers library that offers a simple, yet feature-rich, method of training and evaluating models.
-
-The following code shows how to define the configuration settings and build a model using the TFTrainer class.
+The `TFTrainer` (Trainer for Pytorch) is a class provided by the transformers library that offers a simple, yet feature-rich, method of training and evaluating models. The following code by Okereafor demonstrates how to define the configuration settings and build a model using the TFTrainer class:
 
 ![Photo](images/2.png)
 
-The `TFTrainingArguments` is how we set customization arguments for the training loop and later use them in the `TFTrainer` class. We instantiate the model using the `TFDistilBertForSequenceClassification` class. And then finally, we build the model by instantiating the TFTrainer class and passing in the different options we have defined along with our datasets.
+The `TFTrainingArguments` is how customization arguments are set for the training loop. This makes them available for later use in the `TFTrainer` class. The model is instantiated using the `TFDistilBertForSequenceClassification` class, and then finally built by instantiating the TFTrainer class and passing in the different options defined along with the datasets. 
+
+The results of this fine-tuning can be appreciated below:
 
 ![Photo](images/3.png)
 
@@ -183,7 +173,7 @@ A visualisation of model loss and accuracy can be seen below:
 
 ![Photo](images/output.png)
 
-When testing the fine-tuned models to make predictions about new data, Chukwudi demonstrated that both models yielded identical results, and 89% accuracy.
+When testing the fine-tuned models to make predictions about new data, Okereafor demonstrated that both models yielded identical results, and 89% accuracy.
 
 ## Model Deployment
 
