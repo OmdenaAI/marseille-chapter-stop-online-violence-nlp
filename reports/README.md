@@ -112,7 +112,7 @@ The data pre-processing team was led by Mohamed Khandil and composed of Lamia Se
 
 Chukwudi Okereafor provided the following word cloud for our datasets:
 
-
+![The word clud for our datasets](word_cloud.JPG)
 
 The task leader for this task was Wajeeha Imtiaz.
 
