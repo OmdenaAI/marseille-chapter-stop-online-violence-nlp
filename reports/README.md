@@ -191,8 +191,7 @@ The POC for this project is quite simple and has the form of an interface that p
 Prompt             |  Output
 :-------------------------:|:-------------------------:
 ![](images/hate1.png)  |  ![](images/hate2.png)
-:-------------------------:|:-------------------------:
-![](images/hate1.png)  |  ![](images/hate2.png)
+![](images/homo1.png)  |  ![](images/homo2.png)
 
 As illustrated in the image above, the application provides not only a classification for the sentence, but also the probabilities that the sentence has to belong to all considered classes. As was our goal, also non toxicity is correctly detected, as illustrated by the sentence below and its classification.
 
