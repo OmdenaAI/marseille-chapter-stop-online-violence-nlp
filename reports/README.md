@@ -131,9 +131,9 @@ The table below provides an overview of all tested architectures which were even
 
  | Contributor | Model  | Type  | Additional Info | 
  |-|-|-|-|
- | Lamia SEKKAI | Distil_BERT | TRansformers |Hyper parameters fine tuning of Base model provided by Alexander Lang|
- | Lamia's Model | FastText Word Embedding- RNN Model | Deep learning  | |
- | | | | |
+ | Lamia Sekkai | Distil_BERT | Transformers | Hyper parameters fine tuning of Base model provided by Alexander Lang. |
+ | Lamia Sekkai | FastText Word Embedding- RNN Model | Deep learning  | |
+ | Vedanth Baliga| BERT | Transformers | Used Pytorch Lightning and built a learning rate scheduler with custom learning rate. |
  | | | | |
  | | | | |
  | | | | |
