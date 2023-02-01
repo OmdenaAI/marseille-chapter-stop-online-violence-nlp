@@ -68,12 +68,15 @@ The datasets collected and utilised in the project are listed in the Table below
 
  | Dataset | Dataset Name | Contributors | 
   | - | - | - |  
+  
+  | 1 | Twitter  | Lamia Sekkai, Hemanth Sai, Mohamed Kandil | 
+  | 2 | Reddit | Mohamed Kandil | 
 
 Data from Snapchat and Instagram were also collected but discarded due to lack of participants in the annotation task.
 
 The datasets in the Table above are stored in the task's directory: [https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/raw_data](https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/raw_data).
 
-During this task, helpful tutorials from platforms like YouTube and Medium were shared with the team by Mohammed Raouf, Ganesh Lokare, Caterina Bonan, and Mohamed Kandil. The chapter leader Alexander Lang additionally conducted a workshop tutorial on how to build en ETL pipeline with the twitter API and airflow.
+During this task, helpful tutorials from platforms like YouTube and Medium were shared with the team by Mohammed Raouf, Ganesh Lokare, Caterina Bonan, and Mohamed Kandil. The existence of public datasets on the topic, which were however not used for training purposes, was pointed out by Ganesh Lokare and Mariana Escobar Quiceno. The chapter leader Alexander Lang additionally conducted a workshop tutorial on how to build en ETL pipeline with the twitter API and airflow.
 
 
 ### Data Annotation
