@@ -12,7 +12,7 @@ _____________________________________________
 
 This challenge was created to deploy an accurate classifier to identify grooming behavior in online chats with children. Its main aim was to stop online violence against children. The challenge, which united an international team of AI engineers over 8-weeks, was led by chapter lead Alexandre Iang. 
 
-The common language for the chapter was English, although all chapter work was done on French data. Most engineers had at least a working knowledge of French.
+The common language for the chapter was English, although all chapter work was done on French data. Most engineers had at least a working knowledge of French. Platforms such as GitHub, Notion, Trello, and a dedicated Slack channed were used to coordinate and keep track of the engineer's work.
 
 ## Problem Statement
 
@@ -101,6 +101,12 @@ The task leader for this task was Mohamed Khandil.
 # Conclusions
 
 Despite the successful implementation of our model during this chapter, further work can be forecasted to improve both the model and the way the model is deployed. The team are now planning a follow-up chapter in which a custom extension that will predict the content of a text in real time will be created, and subsequently deployed within an EC2 instance on Amazon Web Services (AWS).
+
+____________________________________________________
+
+This report was written by Caterina Bonan, Postdoctoral Researcher at the University of Cambridge, who takes full responsibity for any eventual mistake or unaccuracy in it.
+
+____________________________________________________
 
 # References
 
