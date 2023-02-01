@@ -3,7 +3,7 @@
 ## A project by the Omdena Marseille Local Chapter.
 
 <p align="center">
-  <img width="100%" height="100%" src="images/french_chapter_logo1.png">
+  <img width="60%" height="60%" src="images/french_chapter_logo1.png">
 </p>
 
 _____________________________________________
