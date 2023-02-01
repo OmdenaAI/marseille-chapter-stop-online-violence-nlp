@@ -82,6 +82,8 @@ During this task, helpful tutorials from platforms like YouTube and Medium were 
 
 All sentences were manually annotated using the categories of hate defined above: SEXISM, RACISM, HOMOPHOBIA, HATE SPEECH, BULLYING.
 
+The annotated data files are stored in the chapter's repository's dedicated directory: [https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/annotated_data](https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/src/data/annotated_data).
+
 ## Exploratory Data Analysis (EDA)
 
 The task leader for this task was Mohamed Khandil.
